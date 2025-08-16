@@ -1,0 +1,33 @@
+:root { 
+    --OliveDrab: #7C8C3F; 
+    --DarkOliveGreen: #667338; 
+    --DarkGray: #A0A68D; 
+    --Beige: #EEF2DF; 
+    --Peru: #A67C2E; 
+    --Black: #2A2A2A; 
+    --White: #FFFFFF; 
+    --Black2: #060606; 
+    --Black3: #636363; 
+
+    /* font-family */
+  --font-family: 'Mulish', inter;
+  --heading-family: "Playfair Display", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--Black);
+};
+
+html {
+    scroll-behavior: smooth;
+    font-size: 18px;
+}
+
+body {
+    font-family: var(--font-family);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
